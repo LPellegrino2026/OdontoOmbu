@@ -1,0 +1,48 @@
+# Dependencies / build output
+node_modules/
+odontologia-ombu-react/dist/
+odontologia-ombu-react/dist-ssr/
+
+# Env / secrets
+.env
+.env.local
+odontologia-ombu-react/.env
+supabase/.env.local
+
+# Supabase local CLI state
+supabase/.branches/
+supabase/.temp/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Personal/reference material kept out of version control
+/Capture1.png
+/Capture2.png
+/Capture3.png
+/Capture4.png
+/capture5.png
+/foto1.jpg
+/Logo.jpg
+/files.zip
+/Landing page request.zip
+/dashboard_profesional.jsx
+/notas.txt
+/nuevo prompt odontologia ombu.txt
+/Prompt extraccion de identidad.txt
+/Prompt Identidad.txt
+/Prompt Tokens.rtf
+/tokens visual.txt
+/Sitio Odontologia ombu/
+/package.json
+/package-lock.json
+/.claude/
